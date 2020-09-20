@@ -1,13 +1,12 @@
 class Doctor
 
-  attr_accessor :name, :doctor
+  attr_accessor :name
 
   @@all = []
 
   def initialize(name)
     @name = name
     @@all << self
-    @doctor = doctor
   end
 
   def self.all
